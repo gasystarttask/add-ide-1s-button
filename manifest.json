@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+   
+    "name": "Add IDE 1s button",
+    "version": "0.1.0",
+    "description": "Frindly IDE 1s button extension",
+   
+    "content_scripts": [{
+      "css": ["styles.css"],
+      "js": ["content.js"],
+      "matches": ["https://github.com/*"]
+    }]
+   
+  }
